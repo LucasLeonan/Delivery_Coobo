@@ -18,14 +18,16 @@ namespace Delivery_Coobo.Models
         }
 
         public int ProjeTosID {get; set;}
+        public int CategoriasID { get; set; }
+        public int EmpresasID { get; set; }
+
         public string Titulo {get; set;}
         public Tipo_Projeto Tipo {get;set;}
         public int Cod_Proj {get;set;}
         public string Descricao {get;set;}
 
-        public int CategoriasID {get;set;}
-        public int EmpresasID {get;set;}
-    
-    public ICollection<Cotacoes> Cotacao {get;set;}
+
+        public virtual Empresas Empresa { get; set; }
+        public ICollection<Cotacoes> Cotacao {get;set;}
    }
 }

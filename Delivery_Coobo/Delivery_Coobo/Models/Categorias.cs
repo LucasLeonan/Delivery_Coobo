@@ -14,11 +14,12 @@ namespace Delivery_Coobo.Models
         }
 
         public int CategoriasID { get; set; }
+
         [StringLength(120)]
         public string Nome_Categoria { get; set; }
         public string Descricao { get; set; }
 
-
+        public virtual Categorias Categoria { get; set; }
         public ICollection<Projetos> Projeto { get; set; }
     }
 }

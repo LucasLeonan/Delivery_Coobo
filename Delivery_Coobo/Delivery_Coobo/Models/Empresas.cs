@@ -10,10 +10,12 @@ namespace Delivery_Coobo.Models
     {
          public Empresas()
         {
-            Project = new List<Projetos>();
+            Projeto = new List<Projetos>();
         }
 
-        public int Cliente_FornID { get; set; }
+        public int EmpresasID { get; set; }
+
+
         [StringLength(80)]
         public string Nome_Empresa { get; set; }
         [StringLength(80)]
@@ -21,13 +23,13 @@ namespace Delivery_Coobo.Models
         [StringLength(50)]
         public string Email {get;set;}
         public string Telefone { get; set;}
-       [Range(0, int.MaxValue, ErrorMessage = "Inserir apenas múmeros")]
+        [Range(0, int.MaxValue, ErrorMessage = "Inserir apenas múmeros")]
         public string CNPJ { get; set; }
-        [StringLength(200)]
+        
         public string Descricao { get; set; }
 
-        public virtual ICollection<Projetos> Project { get; set;}
+
+        public virtual ICollection<Projetos> Projeto { get; set;}
         
-    }       
-    }
+        }
 }
