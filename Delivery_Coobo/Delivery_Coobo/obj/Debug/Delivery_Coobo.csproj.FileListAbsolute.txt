@@ -30,3 +30,7 @@ C:\GitHub\Delivery_Coobo\Delivery_Coobo\Delivery_Coobo\bin\System.Web.Http.WebHo
 C:\GitHub\Delivery_Coobo\Delivery_Coobo\Delivery_Coobo\obj\Debug\Delivery_Coobo.csprojResolveAssemblyReference.cache
 C:\GitHub\Delivery_Coobo\Delivery_Coobo\Delivery_Coobo\obj\Debug\Delivery_Coobo.dll
 C:\GitHub\Delivery_Coobo\Delivery_Coobo\Delivery_Coobo\obj\Debug\Delivery_Coobo.pdb
+C:\GitHub\Delivery_Coobo\Delivery_Coobo\Delivery_Coobo\bin\EntityFramework.dll
+C:\GitHub\Delivery_Coobo\Delivery_Coobo\Delivery_Coobo\bin\EntityFramework.SqlServer.dll
+C:\GitHub\Delivery_Coobo\Delivery_Coobo\Delivery_Coobo\bin\EntityFramework.xml
+C:\GitHub\Delivery_Coobo\Delivery_Coobo\Delivery_Coobo\bin\EntityFramework.SqlServer.xml
