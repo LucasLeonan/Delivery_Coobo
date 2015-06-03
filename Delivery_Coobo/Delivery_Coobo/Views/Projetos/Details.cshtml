@@ -1,0 +1,66 @@
+﻿@model Delivery_Coobo.Models.Projetos
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Projetos</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Empresa.Nome_Empresa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Empresa.Nome_Empresa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoriasID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoriasID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tipo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cod_Proj)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cod_Proj)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProjeTosID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
